@@ -30,5 +30,52 @@ git commit -m '<comment>'
    ls
 
 
+   git status-проверка статуса
+   On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   gitlessons/commands.py
+	new file:   linux/commands.txt
+	new file:   linux/kutman2.txt
 
 
+4.  git remote add-жто команда для того чтобы связать ваш локаьный репозиторий с удаленным репозиторием(репо в гитхабе)
+
+    git remote add<название подключение><ссыла на репозиторий >
+   
+    git remote add origin <url>
+   
+5.  git push -после измениения при помощи этой команды мы отправляем наши измениения в файлах на удаленный репозиторий.
+
+    git push <origin><название ветки(main)>
+    
+    git push origin main
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+        
