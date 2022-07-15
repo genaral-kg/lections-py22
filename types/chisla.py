@@ -74,9 +74,9 @@
 
 # a, b, c = c, a, b
 # print(a, b, c)
-from math import pi
-r = int(input('Vvedite radius :'))
-result_P =  2 * pi * r  
-result_S = pi *(r ** 2)
-print ('Площадь окружности'  , round(result_S,3))
-print ('Периметр окружности' , round(result_P,3))
+# from math import pi
+# r = int(input('Vvedite radius :'))
+# result_P =  2 * pi * r  
+# result_S = pi *(r ** 2)
+# print ('Площадь окружности'  , round(result_S,3))
+# print ('Периметр окружности' , round(result_P,3))
