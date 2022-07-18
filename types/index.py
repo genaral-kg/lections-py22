@@ -80,6 +80,3 @@
 # result_S = pi *(r ** 2)
 # print ('Площадь окружности'  , round(result_S,3))
 # print ('Периметр окружности' , round(result_P,3))
-d1 = int(input("Введите цену:  "))
-g1 = d1 // 100 * 5
-print("Ценна с учётом скидки - ", d1 - g1)
