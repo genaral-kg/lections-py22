@@ -1,91 +1,85 @@
-# > Mister:
-# Тип данных int()
-
-# number = 5 # number - переменная
-# +
-# a = 15
+#   типы данных  int()
+# a = 10
 # b = 5
 # result = a + b
-# print (result)
-# print (a + 100)
-# a = 1234666666666666666666666744444444444444444444444444444444444444444444444444
-# b = 2345688888888888888868633333333333333333333333333333333333333
-# c = 315346777777777777777777771111111111111111111111111111111111111111111111111111
-# d = 35421236888888888888888888888888443333333333333333333333333333333333333111111111
-# print (a + b + c + d)
+# print(result)
+# print(result+100)
+
+# a = 10
+# b = 60
+# c = 100
+# d = 1000000
+# e = 50
+# print(a + b + c + d + e)
 
 # / and //
-# 5 / 2 = 2.5 -> float()
-# 5 // 2 = 2 -> целочисленное деление
+#  5 / 2 = 2.5 -> float
+#  5 // 2 = 2 -> целочисленное деление
 
 # num1 = 25
 # num2 = 12
 # print(num1 / num2)
 # print(num1 // num2)
 
-#  *
-
-# # % -> деление при котором мы получим остаток
-# a = 8
-# b = 5
+# % -> деление при котором мы получим остаток
+# a = 5
+# b = 2
 # result = a % b
 # print(result)
 
-# Возведение в степень 'pow()'
-# 5  4 = 625
-# 5  2 = 5 * 5 = 25
-# print(2  4)
+#  ** -> возведение в степень
+#  5 ** 4 = 625 
+#  5 ** 2 = 5 * 5 = 25
+# print(2 ** 4)
 
 # a = 5
 # b = 3
-# result = pow(a, 5)
-# print(result)
 # print(pow(a, b))
-
 # print(pow(5, 2, 12))
 
 # round() - округление числа с плавающей точкой
+
 # a = 5.723232
-# result = round(a)
+# result = round(a, 3)
 # print(result)
 
-# abs() - абсолютное значение -> abs(-5) -> 5 
-# abs это модуль
-# | -5| = 5
+# abs() - абсолютное знаечение -> abs(-5) -> 5\
+# |-5| = 5
 
-# a = abs(-16)
+# a = abs (-16)
 # print(a)
 
-# divmod(a, b ->) Она выводит два числа, первое число это результат целочисленного деления (//) а на b. 
-# Второе число это модульное деление (%) a на b.
+# divmod(a, b) -> выводит два числа
+# первое число это результат целочисленного деление(//) a на b
+# второе число это модульное деление(%) а на b 
 
-# result = divmod(5, 2)
+# result = divmod (5, 2)
 # print(result)
 
 # import math 
-# a = 5
+# a = 25
 # print(math.sqrt(a))
 
 # chislo_pi = math.pi
 # print(chislo_pi)
 
-# Множественное присваивание
-# оператор присваивания (=)
+# множественное присваивание
+# оператор присваивание (=)
 
-# a, b, c = 1, 2, 5
+# a,  b, c = 1, 2, 7
+# print(a, b, c)
 # print(a)
-# print(b)
+# print(b)v
 # print(c)
 
 # a, b, c = c, a, b
 # print(a, b, c)
-
 # from math import pi
-# r = int(input('Vvedite radius'))
-# result_P = 2 * r * pi
-# result_S = pi * (r  2)
-# print('Площадь окружности', round(result_S))
-# print('Переметр окружности', round(result_P))
+# r = int(input('Vvedite radius :'))
+# result_P =  2 * pi * r  
+# result_S = pi *(r ** 2)
+# print ('Площадь окружности'  , round(result_S,3))
+# print ('Периметр окружности' , round(result_P,3))
 
 # a = int(input('Den rojdenia : '))
 # b = int(input('Mesyac rojdenia : '))
@@ -255,9 +249,9 @@
 # result = name + l_name + str(num)
 # print(result)
 
-a = 1
-b = a 
-print(id(a))
-print(id(b))
+# a = 1
+# b = a 
+# print(id(a))
+# print(id(b))
 
-print(id(90))
+# print(id(90))
