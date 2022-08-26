@@ -15,7 +15,7 @@ def list_of_products():
         print('Год выпуска :', product['year_of_release'])
         print('Цена :', product['price'])
         print('Характеристика :', product['description'])
-        print()
+    return''
     
 def retrieve_product():
     data = get_data()
@@ -31,8 +31,7 @@ def retrieve_product():
         print('Год выпуска :', product['year_of_release'])
         print('Цена :', product['price'])
         print('Характеристика :', product['description'])
-        print()
-
+    return ''
 def get_id():
     with open('id.txt', 'r') as file:
         id = int(file.read())
