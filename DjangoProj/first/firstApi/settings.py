@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     # my project
     # 'rest_framework',
     'main',
-    'test1',
-    'test2',
 ]
 
 MIDDLEWARE = [
@@ -125,6 +123,16 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+MEDIA_URL = 'images/'
+MEDIA_ROOT = BASE_DIR/'media'
+
+MEDIA_ROOT = BASE_DIR/'media/'
+MEDIA_URL = 'audio/'
+
+MEDIA_ROOT = BASE_DIR/'media/'
+MEDIA_URL = 'video/'
+
 
 
 # Default primary key field type
